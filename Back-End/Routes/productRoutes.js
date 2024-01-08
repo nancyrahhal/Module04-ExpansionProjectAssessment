@@ -5,7 +5,7 @@ import protect from "../Middlewares/authentication.js";
 const productRouter = express.Router();
 
 //Create A New Product
-productRouter.post("/:userId", productControllers.createProduct);
+productRouter.post("/:userId", protect,productControllers.createProduct);
 
 //get All products
 productRouter.get("/", productControllers.getProducts);
