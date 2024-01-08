@@ -1,4 +1,4 @@
-# Backend Assessment for Product Application
+<!-- # Backend Assessment for Product Application
 
 ## Setting up the Backend
 
@@ -12,32 +12,32 @@
 
 Develop the backend for the E-commerce application to handle product creation, product retrieval, product updating, and product deletion.
 
-## Requirements
+## Requirements -->
 
-1. **Product Data Model**:
+<!-- 1. **Product Data Model**:
 
    - Create a product schema using Mongoose for storing product data.
    - The schema should include fields for title, category, description, price and supplier.
    - All fields should be required.
-   - Set timestamps for the schema.
+   - Set timestamps for the schema. -->
 
-1. **User Registration**:
-
+<!-- 1. **User Registration**: -->
+<!-- 
    - Create APIs for user registration and login.
-   - Use bcrypt for password hashing.
-   - Differentiate between regular users(view only) and registered product creators.
+   - Use bcrypt for password hashing. -->
+   <!-- - Differentiate between regular users(view only) and registered product creators. -->
 
-2. **Product Creation API**:
+<!-- 2. **Product Creation API**: -->
 
-   - Create an API endpoint for adding new products.
-   - The endpoint should accept the product data as a JSON object in the request body.
-   - Save the created product to the database, associating them with the logged-in user.
+   <!-- - Create an API endpoint for adding new products. -->
+   <!-- - The endpoint should accept the product data as a JSON object in the request body. -->
+   <!-- - Save the created product to the database, associating them with the logged-in user. -->
 
-3. **Product Retrieval API**:
+<!-- 3. **Product Retrieval API**:
 
-   - Create API endpoints to retrieve all products and product by ID
+   - Create API endpoints to retrieve all products and product by ID -->
 
-4. **Product Update API**:
+<!-- 4. **Product Update API**:
 
    - Create an API endpoint for updating products.
    - Ensure that only the product creator can update their products.
@@ -45,7 +45,7 @@ Develop the backend for the E-commerce application to handle product creation, p
 5. **Product Deletion API**:
 
    - Create an API endpoint for deleting products.
-   - Ensure that only the product creator can delete their products.
+   - Ensure that only the product creator can delete their products. -->
 
 ## Submission
 
